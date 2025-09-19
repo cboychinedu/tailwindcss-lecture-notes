@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="m-4 space-x-4">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Primary Button
+        </button>
+        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            Success Button
+        </button>
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            Danger Button
+        </button>
+        <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+            Secondary Button
+        </button>
+    </div>
+
+    <div> 
+        <!-- Creating background colors  -->
+        <p class="bg-[brown]"> Hello Backgroudn Color </p>
+        <p class="bg-[rgb(0,255,0)]"> Hello Backgroudn Color </p>
+        <p class="bg-[hsl(240,100%,50%)]"> Hello Backgroudn Color </p>
+        <p class="bg-[#00ff00]"> Hello Backgroudn Color </p>
+        <p class="bg-[rgba(255,0,0,0.5)]"> Hello Backgroudn Color </p>
+    </div>
+
+    <!-- Adding text color  -->
+     <div class="mt-4"> 
+        <p class="text-[red]"> Hello Text Color </p>
+        <p class="text-[rgb(0,255,0)]"> Hello Text Color </p>
+        <p class="text-[hsl(240,100%,50%)]"> Hello Text Color </p>
+        <p class="text-[#00ff00]"> Hello Text Color </p>
+        <p class="text-[rgba(255,0,0,0.5)]"> Hello Text Color </p>
+
+     </div>
+
+    <div> 
+        <!-- Adding margin and padding  -->
+        <p class="m-4 p-4 bg-gray-200"> Adding margin and padding of 4px </p>
+    </div>
+
+    <!-- Working with font size  -->
+     <div> 
+        <p class="text-[10px]"> Font Size 10px </p>
+        <p class="text-[20px]"> Font Size 20px </p>
+        <p class="text-[30px]"> Font Size 30px </p>
+        <p class="text-[40px]"> Font Size 40px </p>
+        <p class="text-[40em] font-weight-[bold]"> Font Size 40em </p>
+     </div>
+
+     <!-- font weight -->
+      <div> 
+        <p class="font-weight-[100]"> Font Weight 100 </p>
+        <p class="font-weight-[200]"> Font Weight 200 </p>
+        <p class="font-weight-[300]"> Font Weight 300 </p>
+        <p class="font-weight-[400]"> Font Weight 400 </p>
+        <p class="font-weight-[500]"> Font Weight 500 </p>
+        <p class="font-weight-[600]"> Font Weight 600 </p>
+        <p class="font-weight-[700]"> Font Weight 700 </p>
+        <p class="font-weight-[800]"> Font Weight 800 </p>
+        <p class="font-weight-[900] font-weight-[bold]"> Font Weight 900 </p>
+      </div>
+
+      <!-- Padding Classes  -->
+       <div> 
+        <p class="p-[5px] bg-gray-200"> Padding 5px </p>
+        <p class="p-[10px] bg-gray-200"> Padding 10px </p>
+        <p class="p-[15px] bg-gray-200"> Padding 15px </p>
+        <p class="p-[20px] bg-gray-200"> Padding 20px </p>
+        <p class="p-[25px] bg-gray-200"> Padding 25px </p>
+
+        <!-- Padding from the left only  -->
+        <p class="pl-[5px] bg-gray-200"> Padding Left 5px </p>
+
+        <!-- padding from the right only -->
+        <p class="pr-[5px] bg-gray-200"> Padding Right 5px </p>
+
+        <!-- padding from the top only -->
+        <p class="pt-[5px] bg-gray-200"> Padding Top 5px </p>
+
+        <!-- padding from the bottom only -->
+        <p class="pb-[5px] bg-gray-200"> Padding Bottom 5px </p>
+       </div>
+
+
+       <!-- Margin Classes -->
+       <div> 
+        <p class="m-[5px] bg-gray-200"> Margin 5px </p>
+        <p class="m-[10px] bg-gray-200"> Margin 10px </p>
+        <p class="m-[15px] bg-gray-200"> Margin 15px </p>
+        <p class="m-[20px] bg-gray-200"> Margin 20px </p>
+        <p class="m-[25px] bg-gray-200"> Margin 25px </p>
+
+        <!-- Margin from the left only  -->
+        <p class="ml-[5px] bg-gray-200"> Margin Left 5px </p>
+
+        <!-- Margin from the right only -->
+        <p class="mr-[5px] bg-gray-200"> Margin Right 5px </p>
+
+        <!-- Margin from the top only -->
+        <p class="mt-[5px] bg-gray-200"> Margin Top 5px </p>
+
+        <!-- Margin from the bottom only -->
+        <p class="mb-[5px] bg-gray-200"> Margin Bottom 5px </p>
+
+        <!-- Margin top, left, bottom right -->
+         <p class="mt-[10px] ml-[20px] mb-[30px] mr-[40px] bg-gray-200"> Margin Top 10px, Left 20px, Bottom 30px, Right 40px </p>
+
+         <!-- Negative margin class  -->
+          <p class="-mb-[10px]"> Negative Margin Bottom 10px  </p>
+
+    </div>
+
+    <!-- Working with height  -->
+     <div> 
+        <p class="h-[100px] bg-gray-200"> Height 100px </p>
+        <p class="h-[50%] bg-gray-200"> Height 50% </p>
+     </div>
+
+
+     <!-- Border radius classes -->
+     <div>
+        <p class="mt-[100px] ml-[100px] mb-[20px] h-[100px] text-[blue] bg-[black] w-[100px] rounded-[100px]"> Border Radius 5px </p>
+        <p class="rounded-[10px] bg-gray-200"> Border Radius 10px </p>
+        <p class="rounded-[15px] bg-gray-200"> Border Radius 15px </p>
+        <p class="rounded-[20px] bg-gray-200"> Border Radius 20px </p>
+        <p class="rounded-[25px] bg-gray-200"> Border Radius 25px </p>
+     </div>
+
+     <!-- Box Shadow Classes  -->
+      <div>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-sm"> Box Shadow Small </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow"> Box Shadow Default </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-md"> Box Shadow Medium </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-lg"> Box Shadow Large </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-xl"> Box Shadow Extra Large </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-2xl"> Box Shadow 2X Large </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-inner"> Box Shadow Inner </p>
+        <p class="mt-[20px] p-[10px] bg-gray-200 shadow-none"> Box Shadow None </p>
+      </div>
+
+      <!-- Hover Effect Classes   -->
+       <div> 
+        <button class="mt-[20px] w-[fit-content] p-[10px] border-[2px] border-[blue] hover:bg-[blue] hover:p-[12px] hover:text-[white] transition-all duration-600 rounded-[5px]"> Hover Me </button>
+        <button 
+            class="
+                border-[2px] border-[solid] 
+                border-[#ffffff] h-[56px] 
+                ml-[20px] mb-[100px] px-[10px] 
+                bg-[green] text-[white] 
+                display-[inline-block]
+                transition-all duration-700
+                font-bold w-[169px] rounded-[10px] 
+                hover:bg-[darkgreen] 
+                hover:font-[12px]
+            "> Hello User Button 
+        </button>
+       </div>
+
+
+       <!-- Flex Box Classes -->
+        <div class="flex space-x-4 mt-[20px] mb-[100px] ml-[60px] justify-center items-center">
+            <div class="bg-[red] text-[white] p-[10px]"> Flex Item 1 </div>
+            <div class="bg-[blue] text-[white] p-[10px]"> Flex Item 2 </div>
+            <div class="bg-[green] text-[white] p-[10px]"> Flex Item 3 </div>
+        </div>
+    </div>
+
+        <!-- Grid Box Classes -->
+        <div class="grid gap-4 mt-[20px] mb-[100px] ml-[60px] justify-center items-center">
+            <div class="bg-[red] text-[white] p-[1px] h-[100px]"> Grid Item 1 </div>
+            <div class="bg-[blue] text-[white] p-[2px] h-[200px]"> Grid Item 2 </div>
+            <div class="bg-[green] text-[white] p-[3px] h-[300px]"> Grid Item 3 </div>
+        </div>
+</body>
+</html>
